@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0px 312px 90px 310px;   
+}
+
+nav{
+    width: 1296px;
+    height: 785px;   
+}
+
+.logo{
+    width: 1296px;
+    height: 90px;
+    padding: 64px;
+    position: relative;
+}
+
+.logo .lamp img{
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.logo .logo-img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+    gap: 40px;
+
+}
+
+h1{
+    color: #00868A;
+    text-align: center;
+    font-size: ABeeZee;
+    font-size: 48px;
+    font-style: italic;
+    padding-bottom: 60px;
+}
+
+.photo{
+    width: 1296px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+}
+
+.photo .part{
+    width: 306px;
+    height: 344px;
+    border: 1px solid white;
+    background-color: #00868A;
+    position: relative;
+}
+
+.part-new{
+    width: 70px;
+    height: 40px;
+    background-color: #4FBFA5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.photo .part img{
+    width: 306px;
+    height: 230px;
+}
+.photo .part h4{
+    color: white;
+    width: 181px;
+    height: 64px;
+    font-size: 21px;
+    font-size: ABeeZee;
+    font-style: italic;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.part-button{
+    width: 50px;
+    height: 40px;
+    border: 1px solid white;
+    padding: 10px 5px;
+    background-color: #00868A;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+}
+
