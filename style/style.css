@@ -101,3 +101,9 @@ h1{
     cursor: pointer;
 }
 
+.part .part-button img{
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
+
